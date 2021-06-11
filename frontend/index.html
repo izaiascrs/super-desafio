@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <script src="main.js" defer></script>
+    <title>Clínica Max Sorriso</title>
+</head>
+<body>
+    <header>
+        <h1>Clínica Max Sorriso</h1>
+    </header>
+    
+    <section class="buttons">
+        <div class="doctors-box" onclick="doctorModal()">
+            <div class="image-box">
+                <img src="assets/doctor.svg" alt="doctor icon">
+            </div>
+            <p>Cadastrar Médico</p>
+        </div>
+        <div class="patients-box"  onclick="patientModal()">
+            <div class="image-box">
+                <img src="assets/patient.svg" alt="pacient icon">
+            </div>
+            <p>Cadastrar Paciente</p>
+        </div>
+        <div class="cases-box"  onclick="casesModal()">
+            <div class="image-box">
+                <img src="assets/case-study.svg" alt="caso icon">
+            </div>
+            <p>Cadastrar Caso</p>
+        </div>
+        <div class="tomographs-box"  onclick="tomographyModal()">
+            <div class="image-box">
+                <img src="assets/tomography.svg" alt="tomografia icon">
+            </div>
+            <p>Cadastrar Tomografia</p>
+        </div>
+    </section>
+    
+    <!-- <section id="data">
+
+        <div class="table-type">
+            <h3 class="sr-only">Medicos</h3>
+            <h3 class="sr-only">Pacientes</h3>
+            <h3 class="sr-only">Casos</h3>
+            <h3 class="sr-only">Tomografias</h3>
+        </div>
+
+        <table id="data-table">
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>email</th>
+                    <th>telefone</th>
+                    <th>data_nasc</th>
+                    <th>uf</th>
+                    <th>crm</th>
+                </tr>
+            </thead>
+            <tbody> 
+            </tbody>
+        </table>
+    </section> -->
+
+    <div class="modal-overlay">
+        <div class="modal">
+            <div id="form">            
+                <form>                      
+                </form>
+            </div>
+        </div>
+    </div>
+    </div>
+    
+</body>
+</html>
